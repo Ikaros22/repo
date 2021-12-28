@@ -1,0 +1,22 @@
+[{
+ 		"name": "Zbigniew Niewczas",
+ 		"age": 53,
+ 		"male": true,
+ 		"cellary": 6400,
+ 		"n_position": 2
+ 	},
+ 	{
+ 		"name": "Agnieszka Niemieszka",
+ 		"age": 33,
+ 		"male": false,
+ 		"cellary": 5800,
+ 		"n_position": 1
+ 	},
+ 	{
+ 		"name": "Marek Zegarek",
+ 		"age": 28,
+ 		"male": true,
+ 		"cellary": 3300,
+ 		"n_position": 0
+ 	}
+ ]
