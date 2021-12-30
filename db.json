@@ -1,22 +1,355 @@
-[{
- 		"name": "Zbigniew Niewczas",
- 		"age": 53,
- 		"male": true,
- 		"cellary": 6400,
- 		"n_position": 2
- 	},
- 	{
- 		"name": "Agnieszka Niemieszka",
- 		"age": 33,
- 		"male": false,
- 		"cellary": 5800,
- 		"n_position": 1
- 	},
- 	{
- 		"name": "Marek Zegarek",
- 		"age": 28,
- 		"male": true,
- 		"cellary": 3300,
- 		"n_position": 0
- 	}
- ]
+{
+	"Lecturers": [{
+			"name": "Zbigniew Niewczas",
+			"age": 53,
+			"male": true,
+			"cellary": 6400,
+			"n_position": 2
+		},
+		{
+			"name": "Agnieszka Niemieszka",
+			"age": 33,
+			"male": false,
+			"cellary": 5800,
+			"n_position": 1
+		},
+		{
+			"name": "Marek Zegarek",
+			"age": 28,
+			"male": true,
+			"cellary": 3300,
+			"n_position": 0
+		}
+	],
+	"Courses": [{
+			"name": "Algebra",
+			"lecturer": "Zibi",
+			"etc": 6
+		},
+		{
+			"name": "Programming",
+			"lecturer": "Hibi",
+			"etc": 4
+		},
+		{
+			"name": "Physics",
+			"lecturer": "Libi",
+			"etc": 5
+		}
+	],
+	"Algebra": [{
+			"name": "John Cena",
+			"age": 19,
+			"male": true,
+			"index_number": "021266345"
+		},
+		{
+			"name": "Hillary Clinton",
+			"age": 20,
+			"male": false,
+			"index_number": "021266845"
+		},
+		{
+			"name": "David Johnson",
+			"age": 18,
+			"male": true,
+			"index_number": "021266754"
+		},
+		{
+			"name": "Michael Wietnam",
+			"age": 18,
+			"male": true,
+			"index_number": "021266412"
+		}, {
+			"name": "Herman Spear",
+			"age": 19,
+			"male": true,
+			"index_number": "021683754"
+		}, {
+			"name": "Simo Nayah",
+			"age": 18,
+			"male": true,
+			"index_number": "021262168"
+		}, {
+			"name": "Rosa Diaz",
+			"age": 18,
+			"male": false,
+			"index_number": "021266314"
+		}, {
+			"name": "Amy Santiago",
+			"age": 19,
+			"male": false,
+			"index_number": "021266963"
+		}, {
+			"name": "Jake Peralta",
+			"age": 18,
+			"male": true,
+			"index_number": "021266895"
+		}, {
+			"name": "Raimond Holt",
+			"age": 18,
+			"male": true,
+			"index_number": "021266456"
+		}, {
+			"name": "Terry Jeffords",
+			"age": 18,
+			"male": true,
+			"index_number": "031266456"
+		}, {
+			"name": "Ragnar Lodbrok",
+			"age": 18,
+			"male": true,
+			"index_number": "021266476"
+		}, {
+			"name": "Tom Slattery",
+			"age": 18,
+			"male": true,
+			"index_number": "021176456"
+		}, {
+			"name": "Nathan James",
+			"age": 19,
+			"male": true,
+			"index_number": "021264336"
+		}, {
+			"name": "George Lucas",
+			"age": 19,
+			"male": true,
+			"index_number": "021266815"
+		}, {
+			"name": "Walter White",
+			"age": 18,
+			"male": true,
+			"index_number": "021261528"
+		}, {
+			"name": "Jassie Pinkman",
+			"age": 18,
+			"male": true,
+			"index_number": "021266496"
+		}, {
+			"name": "Scarlett White",
+			"age": 18,
+			"male": false,
+			"index_number": "021266666"
+		}, {
+			"name": "Henk Schrader",
+			"age": 18,
+			"male": true,
+			"index_number": "023266456"
+		}, {
+			"name": "Skipper Kovalsky",
+			"age": 19,
+			"male": true,
+			"index_number": "121266456"
+		}
+	],
+	"Physics": [{
+			"name": "John Cena",
+			"age": 19,
+			"male": true,
+			"index_number": "021266345"
+		},
+		{
+			"name": "Cersey Lannister",
+			"age": 20,
+			"male": false,
+			"index_number": "521266845"
+		},
+		{
+			"name": "David Johnson",
+			"age": 18,
+			"male": true,
+			"index_number": "021266754"
+		},
+		{
+			"name": "Michael Wietnam",
+			"age": 18,
+			"male": true,
+			"index_number": "021266412"
+		}, {
+			"name": "Gerd Keller",
+			"age": 19,
+			"male": true,
+			"index_number": "021773754"
+		}, {
+			"name": "Simo Nayah",
+			"age": 18,
+			"male": true,
+			"index_number": "021262168"
+		}, {
+			"name": "Rosa Diaz",
+			"age": 18,
+			"male": false,
+			"index_number": "021266314"
+		}, {
+			"name": "Amy Santiago",
+			"age": 19,
+			"male": false,
+			"index_number": "021266963"
+		}, {
+			"name": "Caveira Diaz",
+			"age": 18,
+			"male": false,
+			"index_number": "151266895"
+		}, {
+			"name": "Raimond Holt",
+			"age": 18,
+			"male": true,
+			"index_number": "021266456"
+		}, {
+			"name": "Terry Jeffords",
+			"age": 18,
+			"male": true,
+			"index_number": "031266456"
+		}, {
+			"name": "Ragnar Lodbrok",
+			"age": 18,
+			"male": true,
+			"index_number": "021266476"
+		}, {
+			"name": "Kttherin Winnick",
+			"age": 18,
+			"male": false,
+			"index_number": "451176456"
+		}, {
+			"name": "Nathan James",
+			"age": 19,
+			"male": true,
+			"index_number": "021264336"
+		}, {
+			"name": "George Lucas",
+			"age": 19,
+			"male": true,
+			"index_number": "021266815"
+		}, {
+			"name": "Walter White",
+			"age": 18,
+			"male": true,
+			"index_number": "021261528"
+		}, {
+			"name": "Matt Damon",
+			"age": 18,
+			"male": true,
+			"index_number": "021266496"
+		}, {
+			"name": "Scarlett White",
+			"age": 18,
+			"male": false,
+			"index_number": "021266666"
+		}, {
+			"name": "Henk Schrader",
+			"age": 18,
+			"male": true,
+			"index_number": "023266456"
+		}, {
+			"name": "Skipper Kovalsky",
+			"age": 19,
+			"male": true,
+			"index_number": "121266456"
+		}
+	],
+	"Programming": [{
+			"name": "John Cena",
+			"age": 19,
+			"male": true,
+			"index_number": "021266345"
+		},
+		{
+			"name": "Cersey Lannister",
+			"age": 20,
+			"male": false,
+			"index_number": "521266845"
+		},
+		{
+			"name": "Stanisław Maczek",
+			"age": 18,
+			"male": true,
+			"index_number": "131266754"
+		},
+		{
+			"name": "Michael Wietnam",
+			"age": 18,
+			"male": true,
+			"index_number": "021266412"
+		}, {
+			"name": "Gerd Keller",
+			"age": 19,
+			"male": true,
+			"index_number": "021773754"
+		}, {
+			"name": "Angela Grupy",
+			"age": 18,
+			"male": false,
+			"index_number": "011462168"
+		}, {
+			"name": "Jake Rook",
+			"age": 18,
+			"male": false,
+			"index_number": "021263514"
+		}, {
+			"name": "Amy Santiago",
+			"age": 19,
+			"male": false,
+			"index_number": "021266963"
+		}, {
+			"name": "Caveira Diaz",
+			"age": 18,
+			"male": false,
+			"index_number": "151266895"
+		}, {
+			"name": "Raimond Holt",
+			"age": 18,
+			"male": true,
+			"index_number": "021266456"
+		}, {
+			"name": "Terry Jeffords",
+			"age": 18,
+			"male": true,
+			"index_number": "031266456"
+		}, {
+			"name": "Kunta Kinte",
+			"age": 18,
+			"male": true,
+			"index_number": "021267476"
+		}, {
+			"name": "Kttherin Winnick",
+			"age": 18,
+			"male": false,
+			"index_number": "451176456"
+		}, {
+			"name": "Nathan James",
+			"age": 19,
+			"male": true,
+			"index_number": "021264336"
+		}, {
+			"name": "George Lucas",
+			"age": 19,
+			"male": true,
+			"index_number": "021266815"
+		}, {
+			"name": "Walter White",
+			"age": 18,
+			"male": true,
+			"index_number": "021261528"
+		}, {
+			"name": "Matt Damon",
+			"age": 18,
+			"male": true,
+			"index_number": "021266496"
+		}, {
+			"name": "Scarlett White",
+			"age": 18,
+			"male": false,
+			"index_number": "021266666"
+		}, {
+			"name": "Henk Schrader",
+			"age": 18,
+			"male": true,
+			"index_number": "023266456"
+		}, {
+			"name": "Skipper Kovalsky",
+			"age": 19,
+			"male": true,
+			"index_number": "121266456"
+		}
+	]
+}
